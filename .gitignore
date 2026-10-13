@@ -1,0 +1,31 @@
+# הגדרות מקומיות וסודות
+.env
+*.env
+config.local.*
+local_config.*
+secrets*
+
+# קובצי מודל ושרטוט (נשארים בדרייב)
+*.ipt
+*.iam
+*.ipn
+*.idw
+*.dwg
+*.step
+*.stp
+*.stl
+*.pdf
+*.zip
+OldVersions/
+
+# נתוני ניסויים ותוצאות
+data/
+results/
+*.csv
+*.xlsx
+rep_*.txt
+
+# פייתון
+__pycache__/
+*.pyc
+build*/
